@@ -1,7 +1,7 @@
-/* 🧠 Fuente moderna */
+/*importar Fuente */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
-/* 🎨 Variables de color (modo oscuro) */
+/* Variables de color (modo oscuro) */
 :root {
   --bg-color: #121212;
   --text-color: #e0e0e0;
@@ -10,7 +10,7 @@
   --card-bg: #1e1e1e;
 }
 
-/* 🧱 Base del sitio */
+/* Base del sitio */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -21,7 +21,7 @@ body {
   padding-right: 5%;
 }
 
-/* 🧭 Navegación */
+/* Navegación */
 nav {
   position: fixed;
   top: 0;
@@ -75,7 +75,7 @@ nav {
   transform: translateX(-50%) scaleX(1);
 }
 
-/* 🖥️ Header principal */
+/* Header principal */
 .header-principal {
   display: flex;
   flex-direction: column;
@@ -93,7 +93,7 @@ nav {
   margin-bottom: 20px;
 }
 
-/* 🖥️ Texto máquina de escribir */
+/* Texto máquina de escribir */
 .typing-container {
   width: 100%;
   max-width: 800px;
@@ -123,7 +123,7 @@ nav {
   50% { border-color: transparent; }
 }
 
-/* 📥 Botón de descarga */
+/* Botón de descarga */
 .botones-contacto {
   display: flex;
   justify-content: center;
@@ -150,7 +150,7 @@ nav {
   opacity: 0.95;
 }
 
-/* 🎨 Colores por tipo */
+/* Colores por tipo */
 
 .botones-contacto {
   display: flex;
@@ -201,7 +201,7 @@ nav {
 }
 
 
-/* 🧱 Estilo visual compartido para secciones tipo pastilla */
+/* Estilo visual compartido para secciones tipo pastilla */
 .seccion-visual {
   background-color: var(--card-bg);
   border-radius: 20px;
@@ -210,7 +210,7 @@ nav {
   margin-bottom: 60px;
 }
 
-/* ✨ Animación de entrada */
+/* Animación de entrada */
 section {
   opacity: 0;
   transform: translateY(30px);
@@ -222,7 +222,7 @@ section.visible {
   transform: translateY(0);
 }
 
-/* 🎯 Sección de estudios */
+/* Sección de estudios */
 .seccion-reclamo {
   text-align: center;
 }
@@ -242,7 +242,7 @@ section.visible {
   margin: 0 auto 40px;
 }
 
-/* 💻 Sección de tecnologías */
+/* Sección de tecnologías */
 .tecnologia-estatica h2 {
   text-align: center;
   font-size: 2.5rem;
@@ -280,7 +280,7 @@ section.visible {
   transform: scale(1.15);
 }
 
-/* 🚀 Sección de proyectos */
+/* Sección de proyectos */
 .grid-proyectos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -345,7 +345,7 @@ section.visible {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
-/* 👤 Sección sobre mí */
+/* Sección sobre mí */
 section#sobremi h2 {
   font-size: 3rem;
   margin-bottom: 50px;
@@ -383,7 +383,7 @@ section#sobremi h2 {
   color: var(--text-color);
 }
 
-/* 📞 Sección de contacto */
+/* Sección de contacto */
 .seccion-contacto h2 {
   font-size: 2.5rem;
   color: var(--accent-color);
@@ -408,7 +408,7 @@ section#sobremi h2 {
   text-decoration: underline;
 }
 
-/* 🖼️ Pie de página */
+/* Pie de página */
 .pie-final {
   background-color: #111;
   padding: 30px 0;
@@ -418,7 +418,7 @@ section#sobremi h2 {
   border-top: 1px solid #333;
 }
 
-/* 🌗 Botón de modo claro/oscuro */
+/* Botón de modo claro/oscuro */
 .toggle-mode {
   position: fixed;
   bottom: 20px;
@@ -440,7 +440,7 @@ section#sobremi h2 {
   transform: scale(1.1);
 }
 
-/* 🌞 Modo claro */
+/* Modo claro */
 body.light-mode {
   --bg-color: #f5f5f5;
   --text-color: #222;
@@ -476,7 +476,7 @@ body.light-mode .pie-final {
   border-top: 1px solid #ccc;
 }
 
-/* 🧩 Logo Unity adaptativo */
+/* Logo Unity adaptativo */
 .logo-unity {
   width: 80px;
   height: 80px;
@@ -500,7 +500,7 @@ body.light-mode .logo-unity.oscuro {
   display: block;
 }
 
-/* 🧩 Tarjetas en modo claro */
+/* Tarjetas en modo claro */
 body.light-mode .tarjeta-proyecto {
   background-color: var(--card-bg);
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -513,3 +513,4 @@ body.light-mode .texto-proyecto h3 {
 body.light-mode .texto-proyecto p {
   color: #333;
 }
+
