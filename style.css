@@ -1,4 +1,4 @@
-/*importar Fuente */
+/* Fuente moderna */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
 /* Variables de color (modo oscuro) */
@@ -10,7 +10,7 @@
   --card-bg: #1e1e1e;
 }
 
-/* Base del sitio */
+/*  Base del sitio */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -513,4 +513,6 @@ body.light-mode .texto-proyecto h3 {
 body.light-mode .texto-proyecto p {
   color: #333;
 }
+
+
 
