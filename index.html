@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio de Hugo</title>
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
@@ -134,6 +134,8 @@
             <h3>Big Data</h3>
             <p>Proyecto final del primer curso de Big Data e Inteligencia Artificial se centra en el proceso completo de análisis de datos: desde su ingesta, almacenamiento y procesamiento, hasta su visualización e interpretación.</p>
             <a href="https://github.com/HyuoArt/Big-Data-proceso-completo-de-an-lisis-de-datos" target="_blank" class="boton-github">Ver en GitHub</a>
+            <h4>Tecnologías</h4>
+            <p>Html,css</p>
           </div>
           <div class="imagen-proyecto">
             <img src="imagenes/imagenes trabajo/bigdataporfolio.jpg" alt="Proyecto 1">
@@ -223,24 +225,24 @@
     </div>
   </section>
 
-  <!-- 🖼️ Pie de página -->
+  <!--Pie de página -->
   <footer class="pie-final">
     <p>&copy; 2025 Hugo Gómez García. Todos los derechos reservados.</p>
   </footer>
 
-  <!-- 🌗 Botón para cambiar modo claro/oscuro -->
+  <!-- Botón para cambiar modo claro/oscuro -->
   <button class="toggle-mode" onclick="toggleMode()">🌙</button>
 
-  <!-- ⚙️ Scripts: modo claro/oscuro + animaciones scroll + texto dinámico -->
+  <!--Scripts: modo claro/oscuro + animaciones scroll + texto dinámico -->
   <script>
-    // 🌗 Alternancia entre modo claro y oscuro
+    // Alternancia entre modo claro y oscuro
     function toggleMode() {
       document.body.classList.toggle('light-mode');
       const button = document.querySelector('.toggle-mode');
       button.textContent = document.body.classList.contains('light-mode') ? '🌞' : '🌙';
     }
 
-    // ✨ Animación de entrada para cada sección al hacer scroll
+    // Animación de entrada para cada sección al hacer scroll
     const sections = document.querySelectorAll('section');
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -252,10 +254,11 @@
 
     sections.forEach(section => observer.observe(section));
 
-    // 🖥️ Texto que se escribe como código
+    // Texto que se escribe como código
     const texto = "Futuro Desarrollador de Aplicaciones Multiplataforma";
     const typingElement = document.getElementById("typing");
     typingElement.textContent = texto;
   </script>
 </body>
 </html>
+
